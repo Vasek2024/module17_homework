@@ -7,7 +7,7 @@
 //     expect(square(num: 2)).toBe(expected: 4)
 // })
 // })
-// import { square } from "./square.js";
+import { square } from "./square.js";
 
 describe(nams: 'square result test', fn:()=>{
     it(set:'ok', func:()=>{
