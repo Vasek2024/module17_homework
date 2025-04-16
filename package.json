@@ -1,8 +1,24 @@
 {
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
-  "scripts": {
-    "test": "jest"
-  }
+	"name": "module17_homework",
+	"version": "1.0.0",
+	"description": "",
+	"main": "myJs.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Vasek2024/module17_homework.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/Vasek2024/module17_homework/issues"
+	},
+	"homepage": "https://github.com/Vasek2024/module17_homework#readme",
+	"dependencies": {
+		"request": "^2.88.2"
+	}
 }

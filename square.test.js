@@ -7,11 +7,21 @@
 //     expect(square(num: 2)).toBe(expected: 4)
 // })
 // })
-import { square } from "./square.js";
 
-describe(nams: 'square result test', fn:()=>{
-    it(set:'ok', func:()=>{
-        const expected = 36
-        expect(square(num: 6)).toBe(expected)
-    })
+
+
+
+// import { square } from './square.js'
+
+// describe("square result test", ()=>{
+//     it("ok", ()=> expect(square(6)).toBe(36)
+//     )
+// })
+
+
+
+import { revertString } from './square.js'
+
+describe('tests for revertString function', () => {
+	it('should reverse string', () => expect(revertString('abc')).toBe('cba'))
 })
