@@ -1,4 +1,4 @@
-const { revertString } = require('./square.js')
+const { revertString } = require('../square.js')
 
 describe('tests for revertString function', () => {
 	// Проверка строгого равенства перевёрнутого слова
