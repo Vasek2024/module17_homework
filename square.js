@@ -1,3 +1,4 @@
+// функция записи в обратном поядке символов принятого значения
 function revertString(str) {
 	let revertedStr = ''
 
