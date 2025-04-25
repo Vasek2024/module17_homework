@@ -9,8 +9,15 @@ describe('tests for revertString function', () => {
 	it('should reverse string', () => {
 		expect(revertString('abc')).toHaveLength(3)
 	})
-	// Тест с ошибкой. Так как olleH !== olleh
+	// Проверка строгого равенства перевёрнутого слова
 	it('should reverse string', () => {
-		expect(revertString('hello')).toBe('olleH')
+		// Привёл к нижнему регистру
+		let paramReference = 'OLLEH'
+		expect(revertString("hello")).toBe(paramReference.toLowerCase())
+	})
+	// Тест с ошибкой. Так как OLLEH !== olleh (по условию ТЗ)
+	it('should reverse string', () => {
+		let paramBig = 'OLLEH'
+		expect(revertString("hello")).toBe(paramBig)
 	})
 })
