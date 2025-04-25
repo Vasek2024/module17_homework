@@ -19,7 +19,9 @@
 	},
 	"homepage": "https://github.com/Vasek2024/module17_homework#readme",
 	"dependencies": {
-		"jest": "^29.7.0",
 		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
 	}
 }
